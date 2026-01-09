@@ -4,3 +4,6 @@
 [submodule "plugins/SpamDetector"]
 	path = plugins/SpamDetector
 	url = https://github.com/mapasculturais/plugin-SpamDetector.git
+[submodule "themes/SpCultura"]
+	path = themes/SpCultura
+	url = https://github.com/mapasculturais/theme-SpCultura.git

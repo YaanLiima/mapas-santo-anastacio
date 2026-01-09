@@ -12,6 +12,9 @@ return [
 
     // deixe true somente se estiver trabalhando nos mapeamentos das entidades
     'doctrine.isDev' => false, 
+	
+	// TEMA ATIVO
+    'themes.active' => 'MapasSA',
 
     /* ASSET MANAGER */
     'themes.assetManager' => new \MapasCulturais\AssetManagers\FileSystem([
