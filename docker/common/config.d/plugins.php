@@ -4,9 +4,25 @@ return [
     'plugins' => [
         'MultipleLocalAuth' => [ 'namespace' => 'MultipleLocalAuth' ],
         'Accessibility',
+		'ValuersManagement',
+		'AdminLoginAsUser',
         'SpamDetector',
         'RecreatePCacheOnLogin',
         'Analytics',
+		'MapasBlame' => [
+            'namespace' => 'MapasBlame',
+            'config' => [
+                'request.logData.PATCH' => function ($data) {
+                    return $data;
+                },
+            ]
+        ],
+		"MetadataKeyword" => [
+            "namespace" => "MetadataKeyword",
+            "config" => [
+                'location' => ['En_Municipio', 'En_Nome_Logradouro', 'En_Bairro', 'En_Estado']
+            ]
+        ],
         'Zammad' => [
             'namespace' => 'Zammad',
             'config' => [
