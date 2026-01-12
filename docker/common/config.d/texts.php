@@ -11,6 +11,7 @@ return [
     "text:home-feature.description" => i::__("Confira os últimos destaques de cada uma das áreas."),
     "text:home-register.title" => i::__("Faça seu cadastro e colabore com o Mapa Cultural de Santo Anastácio"),
     "text:home-register.description" => i::__("Contribua com a plataforma livre e interativa de mapeamento do cenário cultural e instrumento de governança digital no aprimoramento da gestão pública, dos mecanismos de participação e da democratização do acesso às políticas culturais promovidas pela Secretaria de Cultura."),
-    'text:home-developers.description' => '',
-    "text:home-map.description" => i::__("Os agentes, os espaços e os eventos cadastrados contam com a geolocalização de seus endereços, encontre-os aqui:"),
+    "text:home-developers.title" => i::__(""),
+	"text:home-developers.description" => i::__("<span style='display:none'></span>"),
+	"text:home-map.description" => i::__("Os agentes, os espaços e os eventos cadastrados contam com a geolocalização de seus endereços, encontre-os aqui:"),
 ];
